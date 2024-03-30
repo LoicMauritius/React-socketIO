@@ -1,0 +1,24 @@
+:root{
+  --background-color: linear-gradient(122deg, rgba(0,99,255,1) 39%, rgba(6,23,82,1) 100%);
+}
+
+body{
+  background: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.chat_container {
+  display: grid;
+  grid-template-rows: 10% 80% 10%; /* Répartit l'espace en trois colonnes, la colonne du milieu est plus grande */
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+  width: 25vw;
+  height: 100vh;
+}
+
+.chat_container h1{
+  text-align: center;
+}
