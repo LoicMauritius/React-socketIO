@@ -6,9 +6,9 @@ For the frontend, I use a framework called ViteJS to build the application
 
 #Install:
 
-Pour installer toutes les dépendances
+To install dependencies
 ``` npm i ```
-*Si elle n'y sont pas:
+*if they are not here:
 ``` npm install socket.io socket.io-client express axios ```
 
 # Run the program:
